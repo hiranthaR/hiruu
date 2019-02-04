@@ -2,13 +2,20 @@
   "name": "hiruu",
   "version": "1.0.0",
   "description": "my blog",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahanhirantha/hiruu.git"
   },
   "author": "hiruu",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahanhirantha/hiruu/issues"
+  },
+  "homepage": "https://github.com/sahanhirantha/hiruu#readme",
   "dependencies": {
     "express": "^4.16.4"
   }
